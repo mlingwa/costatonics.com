@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial scale=1">
+    <title>DrPc.ELECTRONICS</title>
+    <link rel="stylesheet" href="stlye.css">
+    <font size="20"><strong>
+     <marquee behaviour="alternate" bgcolor="blue" height="80px" >COSTANKING ELECTERONICS SUPPLIER</marquee>
+    </strong>
+    </font>
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="C:\Users\USER\Downloads\Programs\HP3.jpg" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="product.html">product</a></li>
+                    <li><a href="phone.html">home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <h2 style="text-align:center;color:blue;"> PHONES AND LAPTOP</h2>
+    <p>SAMSUNG:IPHONE:TECNO:HUAWEI:INFINIX AND LAPTOP</p>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="C:\Users\USER\Downloads\Programs\s10.jpg" style="width:70%;">
+            <div class="text" style="color:blue">SAMSUNG</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="C:\Users\USER\Downloads\Programs\PXL6.jpg" style="width:80%;">
+            <div class="text" style="color:blue">GOOGLE PIXEL</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="C:\Users\USER\Downloads\Programs\i8.png" style="width:50%;float:right;">
+            <div class="text" style="color:blue">IPHONE</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="word">
+        <p>bofya home hapo juu kuona simu kali za kijanja </p>
+        <h1 style="color:blue">AGIZA SIMU ZA KIJANJA ZENYE <br>UWEZO MKUBWA NA KAMERA KALI </h1>
+        <h1 style="color:goldenrod">Weka order ya simu kali za kijanja <br>kupitia no:0676-082-926 <br>inakupata popote ulipo simu kali<br> zinakufikia usipitiwe na ofaa hii<br> PIA SIMU KALI ZA KUTOKA<br> DUBAI SECOND HAND (USED)<br>ZINAPATIKANA KATIKA KIWANGO CHA JUU ,<br> NDUGU
+            MTEJA AMBATANA
+            <br> NASI KATIKA ULIMWENGU WA KIDIGITAL <br>Tunapatikana:DODOMA maeneo ya UDOM-INFORMATICS na <br>DAR-ES-SALAAM MAGOMENI MAPIPA<br> OFISI YA IPHONELAND</h1>
+        <h4> Kwa kumjali MTANZANIA na kuangalia hali ya uchumi wa <br>kitanzaia tunatoa huduma kama ifuatavyo</h4>
+
+        <ul>
+            <li>Huduma kulingana na mahitaji ya mateja </li>
+            <li>Aina gani ya inauwezo mkubwa wa kufanya kazi na speed ya matandao</li>
+            <li>Ushauri kwa pesa ya mteja aina gani ya kifaa ni bora kwake </li>
+            <li>usalama wa kifaa chako popote ulipo kinakupata kwa uhakika</li>
+        </ul>
+        <h2 style="color:goldenrod">NB:MTEJA KWETU NI MFALME</h2>
+        <br>
+        <br>
+        <h1 style="color:blue; text-align:center;">TUNATOA HUDUMA ZIFUATOZO KWA BEI NAFUU<br>Huduma hizi zinapatikana UDOM-IFORMATICS</h1>
+        <h3>
+            <ul style="color:goldenrod; text-align:center;">
+                <li>KUTOA PASSWORD YA SIMU BILA KUFUTA DATA</li>
+                <li>PHOTO EDITING</li>
+                <li>ELCTRONIC DEVICES MAINTAINANCE</li>
+                <li>BACKUP OF DATA</li>
+                <li>MAKING LOGO</li>
+                <li>WEPSITE DEVELOPMENT</li>
+                <li>SOLUTION OF NETWORK PROBLEMS</li>
+                <li>WINDOW 10,11 INSTALLATION</li>
+
+            </ul>
+        </h3>
+        <div class="footer">
+            <h3>Wewe ni nani upitwe na offer hii kabambe furahia huduma zetu</h3>
+            <h1>TEGEMEA VITU VIZURI KUTOKA KWETU ASANTE</h1>
+        </div>
+    </div>
+    <div style=" text-align:center ">
+        <span class="dot "></span>
+        <span class="dot "></span>
+        <span class="dot "></span>
+    </div>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides ");
+            let dots = document.getElementsByClassName("dot ");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active ", " ");
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            dots[slideIndex - 1].className += " active ";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+</body>
+
+</html>

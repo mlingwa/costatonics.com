@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+        }
+        /* Center website */
+        
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+        
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+        
+        .row {
+            margin: 10px -16px;
+        }
+        /* Add padding BETWEEN each column */
+        
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+        /* Create three equal columns that floats next to each other */
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            display: none;
+            /* Hide all elements by default */
+        }
+        /* Clear floats after rows */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Content */
+        
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+        /* The "show" class is added to the filtered elements */
+        
+        .show {
+            display: block;
+        }
+        /* Style the buttons */
+        
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: white;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #ddd;
+        }
+        
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+        
+        .column {
+            <p>NEW PHONE FULL CONTAINER: </P> <ul> <li>fast charger</li> <li>ear phone</li> <li>warranty 1year</li> </ul>
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+        <h1>SMART PHONES</h1>
+        <hr>
+
+        <h2>CATEGORIES</h2>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('iphone')"> iphone</button>
+            <button class="btn" onclick="filterSelection('samsung')"> samsung</button>
+            <button class="btn" onclick="filterSelection('tecno')"> tecno</button>
+            <button class="btn" onclick="filterSelection('pixel')"> google pixel</button>
+            <button class="btn" onclick="filterSelection('lapto')"> laptop</button>
+        </div>
+
+        <!-- DIFFENT iphone PHONE -->
+        <div class="row">
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i6.jpg" alt="iphones" style="width:100%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone 6:16GB:Tsh370,000</li>
+                        <li>iphone 6:64GB:Tsh420,000</li>
+                        <li>iphone 6+:64GB:Tsh450,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i7.jpg" alt="iphones" style="width:45%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone 7:32GB:Tsh500,000</li>
+                        <li>iphone 7:128GB:Tsh520,000</li>
+                        <li>iphone 7+:32GB:Tsh620,000</li>
+                        <li>iphone 7+:128GB:Tsh650,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i8.png" alt="iphones" style="width:70%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone 8:64GB:Tsh6200,000</li>
+                        <li>iphone 8:256GB:Tsh700,000</li>
+                        <li>iphone 8+:64GB:Tsh620,000</li>
+                        <li>iphone 8+:256GB:Tsh970,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i9.jpg" alt="iphones" style="width:80%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone x:64GB:870,OOO</li>
+                        <li>IPHONE X:256:970,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i10.jpg" alt="iphones" style="width:120%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone xr:64GB:1,100,000</li>
+                        <li>iphone xr:128GB:1,200,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i11.jpg" alt="iphones" style="width:90%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone 11:64GB:1,500,000</li>
+                        <li>iphone 11:128GB:1,600,000</li>
+                        <li>iphone 11:128GB:1,600,000</li>
+                        <li>iphone 11PRO:64GB:2,100,000</li>
+                        <li>iphone 11PRO:256GB:2,200,000</li>
+                        <li>iphone 11PRO MAX:64GBGB:2,100,000</li>
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\i12.jpg" alt="iphones" style="width:70%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone 12:64GB:2,100,000</li>
+                        <li>iphone 12:128GB:2,300,000</li>
+                        <li>iphone 12:256GB:2,400,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+
+            <div class="column iphone">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs/i11pro.png" alt="iphones" style="width:100%">
+                    <font color="blue"><i><b>
+                    <h4>New Phone:</h4>
+                    <ul>
+                        <li>iphone 13:128GB:2,700,000</li>
+                        <li>iphone 13:256GB:2,900,000</li>
+                        <li>iphone 13:512GB:3,400,000</li>
+                        
+                    </ul>
+                    <p>whatsapp NO:0676-082-926</p>
+                </b></i></font>
+                </div>
+            </div>
+            <!---SUMSAMSUNG PHONE-->
+            <div class="column samsung">
+                <div class="content">
+                    <img srC="C:\Users\USER\Downloads\Programs\PngItem_219832.PNG " alt="samsung" style="width:100%">
+                    <font color="blue"><i><b>
+                        <h4>second hand(used) Phone:</h4>
+                        <ul>
+                            <li>samsung S7:Tsh 275,000</li>
+                            <li>samsung s7+:Tsh 350,000</li>
+                            
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+
+            <div class="column samsung">
+                <div class="content">
+                    <img srC="C:\Users\USER\Downloads\Programs\s8.jpg" alt="samsung" style="width:100%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>samsung S8:Tsh 470,000</li>
+                            <li>samsung s8+:Tsh 520,000</li>
+                            
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column samsung">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\s9.jpg " alt="samsung" style="width:140%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>samsung S9:Tsh 570,000</li>
+                            <li>samsung s8+:Tsh 620,000</li>
+                            
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column samsung">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\s10.jpg" alt="samsung" style="width:110%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>samsung s10:Tsh 7500,000</li>
+                            <li>samsung s10+:Tsh 850,000</li>
+                            
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column samsung">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\ss8.jpg " alt="samsung" style="width:70%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>samsung S20:Tsh 1,500,000</li>
+                            <li>samsung s20+:Tsh 2,000,000</li>
+                            
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column samsung">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\ss10.jpg " alt="samsung" style="width:70%">
+                    <font color="blue"><i><b>
+                        <h4>second hand Phone:</h4>
+                        <ul>
+                            <li>samsung S6 edge:Tsh 260,000</li>
+        
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <!--TECNO PHOONES-->
+            <div class="column tecno">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\pop2.png " alt="tecno" style="width:80%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>pop2F:16GB:Tsh 165,000</li>
+                        
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column tecno">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\po5.png" alt="tecno" style="width:70%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>pop5:Tsh 200,000</li>
+                            
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column tecno">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\spark6.png " alt="tecno" style="width:80%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>spark7:32GB:Tsh 270,000</li>
+                            <li>spark7+:64GB:Tsh 330,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column tecno">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\spark7.png" alt="tecno" style="width:90%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>spark8:64GB:Tsh 370,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column tecno">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\comon17.png " alt="tecno" style="width:80%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>camon17:128GB:Tsh 480,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <div class="column tecno">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\comn18p.png " alt="tecno" style="width:70%">
+                    <font color="blue"><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>camon 18i:Tsh 470,000</li>
+                            <li>camon 18:Tsh 520,000</li>
+                            <li>camon 18p:Tsh 600,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <!--HUAWEI PHONES-->
+
+            <div class="column google pixel">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\PXL6.jpg" alt="google pixel" style="width:100%">
+                    <font color=" blue "><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>pixel 6 pr0:Tsh 2,450,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+
+            <div class="column google pixel">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\PXL4.jpg" alt="google pixel" style="width:100%">
+                    <font color=" blue "><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>pixel4:Tsh 600,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+
+            <div class="column google pixel">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\PXL7.jpg" alt="google pixel" style="width:150%">
+                    <font color=" blue "><i><b>
+                        <h4>New Phone:</h4>
+                        <ul>
+                            <li>pixel 3:Tsh 350,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+            <!---LAPTOP-->
+
+
+            <div class="column laptop">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\HP2.jpg" alt="laptop" style="width:100%">
+                    <font color=" blue "><i><b>
+                        <h4>hp laptop:</h4>
+                        <ul>
+                            <li>RAM:8GB</li>
+                            <li>Intel coi 5i:processor:2.4Ghz</li>
+                            <li>Cost:Tsh650,000</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+
+
+            <div class="column laptop">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\HP3.jpg" alt="laptop" style="width:50%">
+                    <font color=" blue "><i><b>
+                        <h4>hp laptop</h4>
+                        <ul>
+                            <li>RAM:8GB</li>
+                            <li>Intel coi 5i:processor2.1Ghz</li>
+                            <li>Cost:Tsh630,000/=</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+
+
+            <div class="column laptop">
+                <div class="content">
+                    <img src="C:\Users\USER\Downloads\Programs\HP4.jpg" alt="laptop" style="width:50%">
+                    <font color=" blue "><i><b>
+                        <h4>hp lptop</h4>
+                        <ul>
+                            <li>RAM:8GB</li>
+                            <li>intel coi 7i</li>
+                            <li>Cost:Tsh980,0000/=</li>
+                        </ul>
+                        <p>whatsapp NO:0676-082-926</p>
+                    </b></i></font>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+        <!-- END MAIN -->
+    </div>
+
+    <script>
+        filterSelection("all ")
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column ");
+            if (c == "all ") c = " ";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show ");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show ");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer ");
+        var btns = btnContainer.getElementsByClassName("btn ");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click ", function() {
+                var current = document.getElementsByClassName("active ");
+                current[0].className = current[0].className.replace(" active ", " ");
+                this.className += " active ";
+            });
+        }
+    </script>
+
+</body>
+
+</html>
